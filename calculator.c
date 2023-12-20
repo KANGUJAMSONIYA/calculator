@@ -1,6 +1,6 @@
 #include<stdio.h>
 main()
-	int sum=0,diff=0,a,b,c,d;
+{  int sum=0,diff=0,a,b,c,d;
 	printf("enter the nos to be added:");
 	scanf("%d%d",&a,&b);
 	sum=a+b;
@@ -9,3 +9,4 @@ main()
 	scanf("%d%d",&c,&d);
 	diff=c-d;
 	printf("diff of two nos is: ",diff);
+}
